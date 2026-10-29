@@ -10,6 +10,12 @@ jobs:
     steps:
       - name: test step
         run: echo "A test step"
+  deploy:
+    runs-on: ubuntu-lates
+    steps:
+      - name: deploy step
+        run: echo "deploy step"
+  
 
 
 
